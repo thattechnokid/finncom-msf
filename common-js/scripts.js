@@ -11,15 +11,17 @@
 	}
 	
 	//ROUNDED TIMES COUNTDOWN
+
 	
 	if(isExists('#rounded-countdown')){
-		var remainingSec = $('.countdown').data('remaining-sec');
+		var remainingSec = (new Date(1555873200000).getTime() - new Date().getTime()) / 1000;
+		
 		$('.countdown').ClassyCountdown({
 			theme: "flat-colors-very-wide",
 			end: $.now() + remainingSec
 			
 		});
-		console.log($.now());
+		// console.log($.now());
 	}
 	
 	//NORMAL TIMES COUNTDOWN
@@ -75,7 +77,7 @@
 function countdownTime(){
 	
 	if(isExists('#clock')){
-		$('#clock').countdown('2018/01/01', function(event){
+		$('#clock').countdown('04/20/2019 12:00:00', function(event){
 			var $this = $(this).html(event.strftime(''
 				+ '<div class="time-sec"><span class="title">%D</span> days </div>'
 				+ '<div class="time-sec"><span class="title">%H</span> hours </div>'
