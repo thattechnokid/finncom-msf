@@ -49,6 +49,17 @@
 
 }
 
+ /* ============iPad 9.7 - Any screen larger======= */
+
+@media only screen and (min-width: 1112px) {
+
+	.left-section-larger {
+		display: table-cell;
+		vertical-align: middle;
+		padding: 0px;
+		margin: 0px;
+	}
+}
 
 /* Screens Resolution : 767px
 -------------------------------------------------------------------------- */
@@ -76,6 +87,46 @@
 
 	body{ font-size: 12px;  }
 
+	/* #rounded-countdown{
+	position: relative;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+} */
+	.left-section-larger{
+		display: block;
+		/* vertical-align: middle; */
+		padding: 100px 0px;
+	}
+
+.left-section{
+	position: relative;
+}
+.left-section .footer-icons{
+	position: relative;
+	bottom: 100px;
+}
+.left-section .logo{
+	    position: relative;
+	    transform: translate(-50%, -50%);
+	    top: 60px;
+	    left: 50%;
+}
+.left-section .logo img {
+	height: 130px;
+	width: 268px;
+}
+.right-section{
+	height: 20%;
+	position: relative;
+	left: 50%;
+	top: 40%;
+	width: 100vw;
+	transform: translate(-50%, -50%);
+}
+.main-area{
+	height:100vh;
+}
 }
 
 /* Screens Resolution : 359px

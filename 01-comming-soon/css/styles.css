@@ -80,6 +80,7 @@ b.light-color{ color: #444; }
 .display-table{ display: table; height: 100%; width: 100%; }
 
 .display-table-cell{ display: table-cell; vertical-align: middle; }
+	
 
 
 
@@ -106,9 +107,12 @@ b.light-color{ color: #444; }
 
 .left-section{ float: left; width: 50%; position: relative; }
 
-.left-section .logo{ position: absolute; top: 40px; height: 30px; }
+.left-section .logo{ position: relative; top: 40px; height: 30px; }
 
-.left-section .logo img{ height: 90px; width:198px; } 
+.left-section .logo img {
+	height: 130px;
+	width: 268px;
+}
 
 
 .left-section .main-content{ padding: 40px 40px 40px 0; }
@@ -159,8 +163,8 @@ b.light-color{ color: #444; }
 .right-section{ position: absolute; top: 0; bottom: 0; right: 0; width: 50%; background-size: cover; z-index: 1; }
 
 .right-section:after{ content:''; position: absolute; top: 0; bottom: 0; right: 0; left: 0; z-index: -2;
-	opacity: .3;
-	background: linear-gradient(to right, #0D75BC, #464748);
+	opacity: .4;
+	background: black;
 	}
 
 #rounded-countdown{ width: 80%; margin: 0 auto; }
