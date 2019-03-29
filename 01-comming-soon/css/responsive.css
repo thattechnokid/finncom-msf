@@ -30,9 +30,9 @@
 	
 	.main-content .email-input-area{ width: 100%; }
 	
-	.main-content .email-input-area .email-input{ padding: 0 115px 0 20px; }
+	.main-content .email-input-area .email-input{ padding: 10px 115px 10px 20px; }
 	
-	.main-content .email-input-area .submit-btn{ width: 100px; } 
+	.main-content .email-input-area .submit-btn{ width: 120px; } 
 	
 	.left-section .footer-icons > li > a > i{ height: 30px; line-height: 28px; width: 30px; }
 	
@@ -47,18 +47,32 @@
 	
 	.date-countdown .time_circles > div > h4{ font-size: .7em!important; }
 
+	.main-content .title {
+		margin: 150px 0px 20px;
+	}
 }
 
  /* ============iPad 9.7 - Any screen larger======= */
 
-@media only screen and (min-width: 1112px) {
+@media only screen and (min-width: 1024px) {
 
 	.left-section-larger {
 		display: table-cell;
 		vertical-align: middle;
 		padding: 0px;
 		margin: 0px;
+		overflow: hidden;
 	}
+	.main-content .title {
+		margin: -150px 0px 20px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.main-content .title {
+		margin: 100px 0px 20px;
+	}
+
 }
 
 /* Screens Resolution : 767px
@@ -74,12 +88,14 @@
 	h1{ font-size: 2.8em; line-height: 1; }
 	h2{ font-size: 2.2em; line-height: 1.1; }
 	h3{ font-size: 1.8em; }
-	
+	.main-content .title{
+		margin: -50px 0px 20px;
+	}
 }
 
 /* Screens Resolution : 479px
 -------------------------------------------------------------------------- */
-@media only screen and (max-width: 479px) {
+@media only screen and (min-width: 479px) and (max-width: 766px) {
 
 	/* ---------------------------------
 	1. PRIMARY STYLES
@@ -104,12 +120,14 @@
 }
 .left-section .footer-icons{
 	position: relative;
-	bottom: 100px;
+	left: 45%;
+	/* bottom: 100px; */
+	
 }
 .left-section .logo{
 	    position: relative;
 	    transform: translate(-50%, -50%);
-	    top: 60px;
+	    top: 30px;
 	    left: 50%;
 }
 .left-section .logo img {
@@ -125,20 +143,124 @@
 	transform: translate(-50%, -50%);
 }
 .main-area{
-	height:100vh;
+	height: 125vh;
 }
 }
 
-/* Screens Resolution : 359px
+/* Screens Resolution : 360px
 -------------------------------------------------------------------------- */
-@media only screen and (max-width: 359px) {
+@media only screen and (min-width: 360px) and (max-width: 478px) {
 	
-	
+	body {
+		font-size: 12px;
+	}
+
+	/* #rounded-countdown{
+	position: relative;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+} */
+	.left-section-larger {
+		display: block;
+		/* vertical-align: middle; */
+		padding: 100px 0px;
+	}
+
+	.left-section {
+		position: relative;
+	}
+
+	.left-section .footer-icons {
+		position: relative;
+		left: 45%;
+		/* bottom: 100px; */
+
+	}
+
+	.left-section .logo {
+		position: relative;
+		transform: translate(-50%, -50%);
+		top: 30px;
+		left: 50%;
+	}
+
+	.left-section .logo img {
+		height: 130px;
+		width: 268px;
+	}
+
+	.right-section {
+		height: 20%;
+		position: relative;
+		left: 50%;
+		top: 40%;
+		width: 100vw;
+		transform: translate(-50%, -50%);
+	}
+
+	.main-area {
+		height: 100vh;
+	}
+
+	.main-content .title {
+		margin: -50px 0px 20px;
+	}
 }
 
 /* Screens Resolution : 290px
 -------------------------------------------------------------------------- */
-@media only screen and (max-width: 290px) {
+@media only screen and (min-width: 290px) and (max-width: 359px) {
 	
-	
+		body {
+			font-size: 12px;
+		}
+
+		/* #rounded-countdown{
+	position: relative;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+} */
+		.left-section-larger {
+			display: block;
+			/* vertical-align: middle; */
+			padding: 100px 0px;
+		}
+
+		.left-section {
+			position: relative;
+		}
+
+		.left-section .footer-icons {
+			position: relative;
+			left: 45%;
+			/* bottom: 100px; */
+
+		}
+
+		.left-section .logo {
+			position: relative;
+			transform: translate(-50%, -50%);
+			top: 30px;
+			left: 50%;
+		}
+
+		.left-section .logo img {
+			height: 130px;
+			width: 268px;
+		}
+
+		.right-section {
+			height: 20%;
+			position: relative;
+			left: 50%;
+			top: 40%;
+			width: 100vw;
+			transform: translate(-50%, -50%);
+		}
+
+		.main-area {
+			height: 150vh;
+		}
 }

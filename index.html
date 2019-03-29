@@ -14,6 +14,7 @@
 	
 	<!-- Stylesheets -->
 	
+
 	<link href="common-css/bootstrap.css" rel="stylesheet">
 	
 	
@@ -44,39 +45,33 @@
 							<h1 class="title"><b>Under Construction</b></h1>
 							<p>Something new and exciting is coming soon! Come back soon for the new and updated Marine Survey Fabrication Website!</p>
 
-							<div class="email-input-area" id="mc_embed_signup">
-								<form method="post" action="https://weebly.us13.list-manage.com/subscribe/post?u=0d2e6dc3d49678329aec3916a&amp;id=3a21e2272c" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-									<!-- Begin Mailchimp Signup Form -->
-								
-											<div id="mc_embed_signup_scroll">
-												<input type="email" value="" name="EMAIL" class="email-input" id="mce-EMAIL" placeholder="Enter Your Email" required>
-												<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-												<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-														name="b_0d2e6dc3d49678329aec3916a_3a21e2272c" tabindex="-1" value=""></div>
-
-												<input type="submit" value="NOTIFY US" name="subscribe" id="mc-embedded-subscribe"
-														class="submit-btn" >
-											</div>
-										</form>
-									</div>
-									
-									<!--End mc_embed_signup-->
-								
-							<!-- email-input-area -->
+							<div class="email-input-area">
+								<form method="post" name="Website Contact Form" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+									<input class="email-input" name="Name" type="text" placeholder="Your Name" /> <br>
 							
-							<p class="post-desc">Sign up now to get early notification of our lauch date!</p>
+									<input class="email-input" name="Email" type="text" placeholder="Your Email" />
+
+									<textarea class="email-input" name="Message" id="" cols="30" rows="2" placeholder="Your Message"></textarea>
+
+									<p class="hidden">
+										<label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+									</p>
+
+									<button class="submit-btn" name="submit" type="submit"><b>CONTACT US</b></button>
+								</form>
+								<ul class="footer-icons">
+									<li>Stay in touch : </li>
+									<li><a href="mailto:matt@finncom-msf.com"><i class="ion-email"></i></a></li>
+									<li><a href="https://www.instagram.com/marine.survey.fab/?hl=en" target="_BLANK"><i
+												class="ion-social-instagram-outline"></i></a></li>
+								</ul>
+							</div><!-- email-input-area -->
+
+						
+							
 						</div><!-- main-content -->
 					</div><!-- display-table-cell -->
 				</div><!-- display-table -->
-				
-				<ul class="footer-icons">
-					<li>Stay in touch : </li>
-					<li><a href="#"><i class="ion-social-facebook"></i></a></li>
-					<li><a href="#"><i class="ion-social-twitter"></i></a></li>
-					<li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-					<li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
-					<li><a href="#"><i class="ion-social-pinterest"></i></a></li>
-				</ul>
 		
 			</section><!-- left-section -->
 		
@@ -113,6 +108,7 @@
 	<script src="common-js/jquery.throttle.js"></script>
 	
 	<script src="common-js/scripts.js"></script>
+
 	
 </body>
 </html>
