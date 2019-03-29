@@ -134,7 +134,7 @@ b.light-color{ color: #444; }
 .main-content .email-input-area .email-input:focus{ border-color: #f89fbc; }
 
 
-.main-content .email-input-area .submit-btn{ width: 120px; text-align: center; position: absolute; font-size: .9em;
+.main-content .email-input-area .submit-btn{ width: 120px; text-align: center; position: relative; font-size: .9em;
 	border-radius: 40px; transition: all .3s; background: #0D75BC; color: #fff; padding: 15px 3px}
 
 .main-content .email-input-area .submit-btn:hover{ background: #0099ff; }
