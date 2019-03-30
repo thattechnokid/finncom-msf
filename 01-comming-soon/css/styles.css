@@ -145,7 +145,8 @@ b.light-color{ color: #444; }
 
 .left-section .footer-icons{ 
 	position: relative; 
-	    left: 40%;
+	        transform: translate(-50%, -120%);
+	        left: 90%;
 	    }
 
 .left-section .footer-icons > li > a{ display: inline-block; font-size: 25px; padding: 0 0px; }

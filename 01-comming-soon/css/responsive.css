@@ -120,7 +120,7 @@
 }
 .left-section .footer-icons{
 	position: relative;
-	left: 45%;
+	/* left: 45%; */
 	/* bottom: 100px; */
 	
 }
@@ -173,7 +173,7 @@
 
 	.left-section .footer-icons {
 		position: relative;
-		left: 45%;
+		/* left: 45%; */
 		/* bottom: 100px; */
 
 	}
@@ -234,7 +234,7 @@
 
 		.left-section .footer-icons {
 			position: relative;
-			left: 45%;
+			/* left: 45%; */
 			/* bottom: 100px; */
 
 		}
